@@ -1,0 +1,13 @@
+language: ruby
+rvm:
+- 2.1.5
+- 2.1.4
+- 2.1.3
+- 2.1.2
+deploy:
+  provider: heroku
+  api_key:
+    secure: m4+Mi3Ro97ijKpgegz++0y0UpixwDs7qDFHVYGMIhVGqYRrSXbVLsl77j3FXditEsJxaJItJABxtVQOX42r8Hu1NwiN2NG11ZTwzKfZKrRokkSn7+GUluOdYdD4yxCPVaN+YA3b6BZ+47LRyEkYVSbzW8njNlyyMXj/TDCPzB5c=
+  app: conflog-stream
+  on:
+    repo: kimihito/conflog-stream
